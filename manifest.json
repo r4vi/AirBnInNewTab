@@ -1,0 +1,13 @@
+{
+    "name" : "AirBinNewTab",
+    "version" : "1.0",
+    "description": "Open links to properties on AirBnB in new tabs",
+    "content_scripts" : [
+        {
+            "matches": ["http://www.airbnb.com/search*"],
+            "js" : [
+		"src/jquery-1.7.1.min.js",
+		"src/contentscript.js"]
+        }
+    ]
+}
