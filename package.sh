@@ -8,8 +8,8 @@
 #fi
 
 dir=./
-key=./airBinNewTab.pem
-name=airBinNewTab
+key=./AirBinNewTab.pem
+name=AirBinNewTab
 crx="$name.crx"
 pub="$name.pub"
 sig="$name.sig"
