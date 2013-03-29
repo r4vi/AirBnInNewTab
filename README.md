@@ -1,6 +1,6 @@
 # AirBnB in New Tab
 
-I coffeescript onliner that opens airbnb links from the /search page in new tabs instead of messing up your search.
+A Coffeescript onliner that opens airbnb links from the /search page in new tabs instead of messing up your search.
 
 ## Features I might add
 
