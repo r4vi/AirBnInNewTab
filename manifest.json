@@ -13,5 +13,16 @@
 		"src/jquery-1.7.1.min.js",
 		"src/contentscript.js"]
         }
+    ],
+    "content_scripts" : [
+        {
+            "run_at": "document_start",
+            "matches": [
+                        "https://www.airbnb.com/search*", 
+                        "https://www.airbnb.co.uk/search*",
+                        "https://www.airbnb.co.uk/s/*" ],
+            "js" : [
+		"src/contentscript_hook.js"]
+        }
     ]
 }
